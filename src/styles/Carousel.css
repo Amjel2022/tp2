@@ -1,0 +1,81 @@
+.carousel {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.carousel_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel_card {
+    display: flex;
+    flex: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.3);
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.5s ease-in-out;
+
+}
+
+.carousel_card-active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: visible;
+}
+
+.imagen_card {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_titulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 40px 20px;
+    align-items: flex-end;
+}
+
+.card_subtitulo {
+    color:antiquewhite;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flechaIzquierdaCarousel,
+.flechaDerechaCarousel {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.flechaIzquierdaCarousel {
+    left: 15px;
+}
+
+.flechaDerechaCarousel {
+    right: 15px;
+}
