@@ -45,7 +45,7 @@ function Carousel({Carousel}) {
             {Carousel.map((imagen, index) => { 
             return (
             // Forma del condicional usado= "(condición) ? true : false -- Otra forma de escribir el "if"!!!
-                <div key={index} className= {index == current ? "carousel_card carousel_card-active" : "carousel_card" }>
+                <div key={index} className= {index === current ? "carousel_card carousel_card-active" : "carousel_card" }>
                     
                     <img className="imagen_card" src={imagen.imagen} alt="" /> 
                     
@@ -67,7 +67,7 @@ function Carousel({Carousel}) {
             <div className="rotacionCarousel">
                 {Carousel.map((_, index) => { 
                     return(
-                        <div key={index} className={index == current ? "puntitosCarousel puntitosCarousel-active" : "puntitosCarousel"} 
+                        <div key={index} className={index === current ? "puntitosCarousel puntitosCarousel-active" : "puntitosCarousel"} 
                         onClick={ () => {setCurrent(index)}}
                         ></div>
                     );
