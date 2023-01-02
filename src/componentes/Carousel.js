@@ -1,8 +1,17 @@
 import { useState } from "react";
 import "../styles/Carousel.css";
+import { useEffect } from "react";
 
 function Carousel({Carousel}) {
     const [current, setCurrent] = useState(0);
+    const [autoPlay, setAutoPlay] = useState(true);
+    let timeOut = null;
+    
+    useEffect( () => { 
+        timeOut = autoPlay && setTimeout( () => {
+            deslizarDerecha();
+        }, 2500);     
+    })
     // {/* Función deslizar Derecha: */} 
     // Otra forma de escribir el condicional: 
     // !!! const deslizarDerecha = () => {
@@ -27,7 +36,11 @@ function Carousel({Carousel}) {
     };
 
     return (
-    <div className="carousel">
+    <div className="carousel" 
+        onMouseEnter={() => {setAutoPlay (false);
+        clearTimeout(timeOut);}}
+        onMouseLeave={() => {setAutoPlay (true);}}
+    >
         <div className="carousel_wrapper">
             {Carousel.map((imagen, index) => { 
             return (
@@ -43,13 +56,23 @@ function Carousel({Carousel}) {
             );
         })} 
         
-        {/* Flecha Izquierda: */}
-        <div className="flechaIzquierdaCarousel" onClick={deslizarIzquierda}> &lsaquo; 
-        </div>    
-        {/* Flecha Derecha: */}
-        <div className="flechaDerechaCarousel" onClick={deslizarDerecha} >&rsaquo;
-        </div> 
-        
+            {/* Flecha Izquierda: */}
+            <div className="flechaIzquierdaCarousel" onClick={deslizarIzquierda}> &lsaquo; 
+            </div>    
+            {/* Flecha Derecha: */}
+            <div className="flechaDerechaCarousel" onClick={deslizarDerecha} >&rsaquo;
+            </div> 
+            
+            {/* Puntitos: */}
+            <div className="rotacionCarousel">
+                {Carousel.map((_, index) => { 
+                    return(
+                        <div key={index} className={index == current ? "puntitosCarousel puntitosCarousel-active" : "puntitosCarousel"} 
+                        onClick={ () => {setCurrent(index)}}
+                        ></div>
+                    );
+                })}
+            </div>
         </div>
     </div>
   );
