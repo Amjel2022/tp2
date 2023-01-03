@@ -21,4 +21,3 @@ export const fotosCarousel = [
     },
 
 ];
-// Me quede en minuto 8 del tutorial

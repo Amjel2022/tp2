@@ -1,19 +1,15 @@
 import "./App.css";
 import Carousel from "./componentes/Carousel";
 import { fotosCarousel } from "./componentes/Data"; 
+import Header from "./componentes/Header";
 
 function App() {
   return (
     <div className="App">
-      <div className="tituloPrincipal">
-        <h1>Tabla Periódica de los Elementos</h1>
-       
-      </div>
       
-    {/* Carousel */}
-
+      <Header />
+       {/* Carousel */}
       <Carousel Carousel={fotosCarousel} />
-
 
     </div> 
   );

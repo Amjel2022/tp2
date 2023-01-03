@@ -1,4 +1,5 @@
 .carousel {
+    margin-top: 200px;
     display: flex;
     height: 400px;
     width: 100%;
@@ -25,7 +26,6 @@
     pointer-events: none;
     transform: scale(0.8);
     transition: 0.5s ease-in-out;
-
 }
 
 .carousel_card-active {

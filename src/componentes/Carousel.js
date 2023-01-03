@@ -8,10 +8,14 @@ function Carousel({Carousel}) {
     let timeOut = null;
     
     useEffect( () => { 
+        // Me aparecía error en el código y como sugerencia de correción la siguiente línea: 
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         timeOut = autoPlay && setTimeout( () => {
             deslizarDerecha();
         }, 2500);     
     })
+        // Con la línea comentada anterior el error en el código desapareció. 
+        
     // {/* Función deslizar Derecha: */} 
     // Otra forma de escribir el condicional: 
     // !!! const deslizarDerecha = () => {

@@ -1,0 +1,28 @@
+.header {
+    background-color: blueviolet;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.headerLogo {
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navLink {
+    list-style-type: none;
+    text-decoration: none;
+}
+
