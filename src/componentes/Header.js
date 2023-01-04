@@ -1,18 +1,19 @@
 import "../styles/Header.css";
+import 'remixicon/fonts/remixicon.css'
 
 function Header() {
-    return <header className="header">Tabla Periódica de los Elementos
-        <div className="headerConteiner">
+    return <header className="header">
+        <div className="headerContainer">
             {/* Logo en la navBar */}
             <a href="#home" className="headerLogo">
-                Menú
+                Tabla Periódica de los Elementos
             </a>
 
             {/* Menú en la navBar */}
             <nav className="navMenu">
                 <ul className="navLista">
                     <li className="navItem">
-                        <a href="#home" className="navLink">Home</a>
+                        <a href="#home" className="navLink active">Home</a>
                     </li>
                     <li className="navItem">
                         <a href="#introduccion" className="navLink">Introducción</a>
