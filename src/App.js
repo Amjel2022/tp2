@@ -1,13 +1,14 @@
 import "./App.css";
 import Carousel from "./componentes/Carousel";
 import { fotosCarousel } from "./componentes/Data"; 
-import Header from "./componentes/Header";
+import Navbar from "./componentes/Navbar";
+
 
 function App() {
   return (
     <div className="App">
       
-      <Header />
+      <Navbar />
        {/* Carousel */}
       <Carousel Carousel={fotosCarousel} />
 
