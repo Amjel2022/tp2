@@ -12,7 +12,7 @@ function Navbar() {
     }    
     return(
         <header>
-            <h1>Tabla Periódica</h1>
+            <h1>tabla periódica</h1>
 
             <nav ref={navRef}>
                 <a href="/#">Home</a>
@@ -21,7 +21,7 @@ function Navbar() {
                 <a href="/#">Metales</a>
                 <a href="/#">No Metales</a>
                 <a href="/#">Metaloides</a>
-                <a href="/#">Contacto</a>
+                <a href="/#">Curiosidades</a>
                 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <i className="ri-close-circle-line"></i>
