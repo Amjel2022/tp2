@@ -12,7 +12,7 @@ function Navbar() {
     }    
     return(
         <header>
-            <h1>Tabla Periódica de los Elementos</h1>
+            <h1>Tabla Periódica</h1>
 
             <nav ref={navRef}>
                 <a href="/#">Home</a>

@@ -1,5 +1,5 @@
 .carousel {
-    margin-top: 500px;
+    margin-top: 30px;
     display: flex;
     height: 400px;
     width: 100%;
@@ -104,3 +104,4 @@
 .puntitosCarousel-active {
     background-color: royalblue;
 }
+

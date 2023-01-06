@@ -72,6 +72,8 @@ header .nav-btn {
 
     header .responsive_nav {
         transform: none;
+        padding-bottom: 250px;
+        
     }
 
     nav .nav-close-btn {
