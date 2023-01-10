@@ -16,7 +16,7 @@ function Navbar() {
 
             <nav ref={navRef}>
                 <a href="/#">Home</a>
-                <a href="/#">Introducción</a>
+                <a href="./paginas/Introduccion.js">Introducción</a>
                 <a href="/#">Historia</a>
                 <a href="/#">Metales</a>
                 <a href="/#">No Metales</a>
