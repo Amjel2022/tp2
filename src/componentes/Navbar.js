@@ -1,6 +1,7 @@
 import "../styles/Navbar.css";
 import 'remixicon/fonts/remixicon.css';
 
+import { Link } from "react-router-dom";
 import { useRef } from "react";
 
 function Navbar() {
@@ -15,13 +16,13 @@ function Navbar() {
             <h1>tabla periódica</h1>
 
             <nav ref={navRef}>
-                <a href="/#">Home</a>
-                <a href="./paginas/Introduccion.js">Introducción</a>
-                <a href="/#">Historia</a>
-                <a href="/#">Metales</a>
-                <a href="/#">No Metales</a>
-                <a href="/#">Metaloides</a>
-                <a href="/#">Curiosidades</a>
+                <Link to="/" className="links">Home</Link>
+                <Link to="/introduccion" className= "links" >Introducción</Link>
+                <Link to="/historia" className= "links" >Historia</Link>
+                <Link to="/metales" className= "links" >Metales</Link>
+                <Link to="/NoMetales" className= "links" >No Metales</Link>
+                <Link to="/metaloides" className= "links" >Metaloides</Link>
+                <Link to="/curiosidades" className= "links" >Curiosidades</Link>
                 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <i className="ri-close-circle-line"></i>
