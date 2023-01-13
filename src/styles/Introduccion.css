@@ -1,0 +1,28 @@
+
+
+.tituloIntro {
+    padding-top: 40px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.parrafo {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}

@@ -10,6 +10,7 @@
 :root {
     --lila: #8271e4;
     --lila_secundario: #5F50A9;
+    --lila_variante: #ada6d4;
     --blanco: #EFF3FC;
     --blanco_secundario: #F0EFFF;
     --negro: #141414;
@@ -21,13 +22,14 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 2 rem;
-    background-color: var(--blanco_secundario);
+    background-color: var(--lila_variante);
     color: var(--negro);
 }
 
 nav .links {
     margin: 1rem 2rem;
-    color: var(--lila);
+    color: var(--blanco);
+    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -71,8 +73,8 @@ h1 {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: var(--blanco);
-        transition: 1s;
+        background-color: var(--lila_variante);
+        transition: 1.3s;
         transform: translateY(100vh);
     }
 
