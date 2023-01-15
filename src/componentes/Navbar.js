@@ -15,14 +15,55 @@ function Navbar() {
         <header>
             <h1>tabla<b> periódica</b></h1>
 
-            <nav ref={navRef}>
-                <Link to="/" className="links">Home</Link>
-                <Link to="/introduccion" className= "links" >Introducción</Link>
-                <Link to="/historia" className= "links" >Historia</Link>
-                <Link to="/metales" className= "links" >Metales</Link>
-                <Link to="/NoMetales" className= "links" >No Metales</Link>
-                <Link to="/metaloides" className= "links" >Metaloides</Link>
-                <Link to="/curiosidades" className= "links" >Curiosidades</Link>
+            <nav className="navbar" ref={navRef}>
+                <Link to="/" className="links">
+                    <div className="iconLinks">
+                        <i className="ri-home-3-line" ></i>
+                    </div>
+                    Home
+                </Link>
+                
+                <Link to="/introduccion" className= "links" >
+                    <div className="iconLinks">
+                        <i className="ri-bookmark-line" ></i>
+                    </div>
+                    Introducción
+                </Link>
+                
+                <Link to="/historia" className= "links" >
+                    <div className="iconLinks">
+                        <i className="ri-calendar-check-line" ></i>
+                    </div>
+                    Historia
+                </Link>
+                
+                <Link to="/metales" className= "links" >
+                    <div className="iconLinks">
+                        <i className="ri-layout-top-2-line" ></i>
+                    </div>
+                    Metales
+                </Link>
+                
+                <Link to="/NoMetales" className= "links" >
+                    <div className="iconLinks">
+                        <i className="ri-layout-left-2-line" ></i>
+                    </div>
+                    No Metales
+                    </Link>
+                
+                <Link to="/metaloides" className= "links" >
+                    <div className="iconLinks">
+                        <i className="ri-layout-right-2-line" ></i>
+                    </div>
+                    Metaloides
+                    </Link>
+                
+                <Link to="/curiosidades" className= "links" >
+                    <div className="iconLinks">
+                        <i className="ri-medal-2-line" ></i>
+                    </div>
+                    Curiosidades
+                </Link>
                 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <i className="ri-close-circle-line"></i>
