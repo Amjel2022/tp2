@@ -19,7 +19,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 80px;
     padding: 0 2 rem;
     background-color: var(--lila_variante);
@@ -30,7 +30,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin-left: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
     color: var(--blanco);
     font-weight: bolder;
     text-decoration: none;
@@ -89,7 +91,9 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0;
+        justify-content: space-between;
+        margin: auto;
+        gap: 0.5rem;
         background-color: var(--lila_variante);
         transition: 1.2s;
         transform: translateY(100vh);
