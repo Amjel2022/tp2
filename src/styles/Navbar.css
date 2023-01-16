@@ -99,6 +99,17 @@ h1 {
         transform: translateY(100vh);
     }
 
+    .navbar .links {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+
+    .links:hover {
+        color: var(--lila_secundario);
+    }
+
     header .responsive_nav {
         transform: none;
         z-index: 1;
@@ -108,6 +119,7 @@ h1 {
         position: absolute;
         top: 2rem;
         right: 2rem;
+        
     }
 
     .iconLinks {
