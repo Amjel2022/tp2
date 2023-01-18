@@ -3,7 +3,7 @@ import Carousel from "./componentes/Carousel";
 import { fotosCarousel } from "./componentes/Data"; 
 import Navbar from "./componentes/Navbar";
 import {Routes, Route} from "react-router-dom";
-
+import Footer from "./componentes/Footer";
 
 import Home from "./paginas/Home";
 import Introduccion from "./paginas/Introduccion";
@@ -20,8 +20,10 @@ function App() {
       
       {/* Barra de Navegación - Navbar */}
       <Navbar />
+      
       {/* Carousel */}
       <Carousel Carousel={fotosCarousel} />
+      
       {/* Rutas de la App */}
       <Routes>       
           <Route path="/" element={<Home />} />
@@ -32,6 +34,10 @@ function App() {
           <Route path="metaloides" element={<Metaloides />} />
           <Route path="curiosidades" element={<Curiosidades />} />    
       </Routes>
+      
+      {/* Footer de la App */}
+      <Footer />
+    
     </div> 
   );
 }
