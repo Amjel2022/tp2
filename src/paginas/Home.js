@@ -1,4 +1,4 @@
-
+import React from "react";
 import Carousel from "../componentes/Carousel";
 import {fotosCarousel} from "../componentes/Data";
 

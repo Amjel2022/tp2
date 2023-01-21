@@ -50,8 +50,8 @@
 
 @media(max-width:480px) {
     .parrafoH1, .parrafoH2, .parrafoH3 {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
         text-align: justify;
     }
 }
