@@ -1,6 +1,4 @@
 import "./App.css";
-import Carousel from "./componentes/Carousel";
-import { fotosCarousel } from "./componentes/Data"; 
 import Navbar from "./componentes/Navbar";
 import {Routes, Route} from "react-router-dom";
 import Footer from "./componentes/Footer";
@@ -21,8 +19,6 @@ function App() {
       {/* Barra de Navegación - Navbar */}
       <Navbar />
       
-      {/* Carousel */}
-      <Carousel Carousel={fotosCarousel} />
       
       {/* Rutas de la App */}
       <Routes>       

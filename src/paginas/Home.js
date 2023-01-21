@@ -1,8 +1,19 @@
 import "../styles/Home.css";
+import Carousel from "../componentes/Carousel";
+import {fotosCarousel} from "../componentes/Data";
 
-export default function Home () {
+
+function Home () {
     return (
-        <h1 className="tituloHome">Home</h1>
+        
+        <div className="containerCarousel" >                
+            
+            {/* Carousel */}
+            <Carousel Carousel={fotosCarousel} />
+
+        </div>
+        
     )
 }
 
+export default Home

@@ -1,6 +1,5 @@
-
-.tituloHome  {
-    padding-top: 40px;
+.containerHome {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    
 }
