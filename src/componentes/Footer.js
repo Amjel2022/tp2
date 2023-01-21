@@ -5,14 +5,26 @@ import 'remixicon/fonts/remixicon.css';
 const Footer = () => {
     return (
         <div className="footerPrincipal">
+            <div className="news">
+                    <div className='newsTexto'>
+                        <h4 className="tituloNews">Recibí nuestro newsletter</h4>
+                        <p>Todas las novedades de la página en tu correo.</p>
+                    </div>
+                    
+                    <div className='iconNews'>
+                        <i className="ri-mail-star-line"></i>
+                    </div>
+
+                    <input type="email" placeholder="Correo Electrónico" className="formulario"></input>
+
+                    <button className="botonSuscripcion" >
+                    Suscribite
+                    </button>
+                    
+            </div>
+            
             <div className="container">
                 
-                <div className="news">
-                {/* Aca se debe colocar un dibujo de un sobre y un inputt para llenar un mail */}
-                    
-                    <div className="suscripcion"></div>
-                 
-                </div>
 
                 <div className="columnaFooter">
                     

@@ -23,6 +23,7 @@
     justify-content: space-between;
     align-content: stretch;
     align-items: stretch;
+    margin-top: 2rem;
 }
 
 .columna1 {
@@ -101,6 +102,59 @@
 .fila a {
     text-decoration: none;
 }
+.news {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    color: var(--negro);
+    border: 4px solid var(--negro);
+    background-color: var(--blanco);
+    border-radius: 7px;
+    max-width: 800px;
+    height: 90px;
+    align-items: center;
+    margin: auto;
+}
+
+.news p {
+    margin-top: 5px;
+}
+
+.iconNews {
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+.news input {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 25px;
+    outline: none;
+    border: 2px solid var(--lila);
+    border-radius: 5px;
+}
+
+.news input:focus {
+    border: 3px solid var(--lila_secundario);
+}
+
+.botonSuscripcion {
+    border: 2px solid var(--lila_secundario);
+    color: var(--negro);
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.botonSuscripcion:hover {
+    color: var(--blanco);
+    background-color: var(--lila_secundario);
+}
 
 @media(max-width:768px) {
     .columnaFooter {
@@ -113,4 +167,29 @@
         flex-basis: auto;
         padding-bottom: 2rem;
     }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .newsTexto {
+        margin-top:0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .botonSuscripcion {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .iconNews {
+        margin-bottom: 1rem;
+    }
 }
+

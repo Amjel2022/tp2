@@ -1,22 +1,22 @@
 export const fotosCarousel = [
     {
-        imagen: "/Carousel/tablaper1.png",
+        imagen: "imagenes/Carousel/tablaper1.png",
         titulo: "Introducción",
     },
     {
-        imagen: "/Carousel/dmitri.png",
+        imagen: "imagenes/Carousel/dmitri.png",
         titulo: "Historia",
     },
     {
-        imagen: "/Carousel/metales_portada.png",
+        imagen: "imagenes/Carousel/metales_portada.png",
         titulo: "Metales"
     },
     {
-        imagen: "/Carousel/nometales_portada.png",
+        imagen: "imagenes/Carousel/nometales_portada.png",
         titulo: "No Metales"
     },
     {
-        imagen: "/Carousel/metaloides_portada.png",
+        imagen: "imagenes/Carousel/metaloides_portada.png",
         titulo: "Metaloides"  
     },
 

@@ -19,7 +19,6 @@ function App() {
       {/* Barra de Navegación - Navbar */}
       <Navbar />
       
-      
       {/* Rutas de la App */}
       <Routes>       
           <Route path="/" element={<Home />} />
