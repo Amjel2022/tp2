@@ -1,6 +1,6 @@
 export const fotosCarousel = [
     {
-        imagen: "imagenes/Carousel/tablaper1.png",
+        imagen: "./imagenes/Carousel/tablaper1.png",
         titulo: "Introducción",
     },
     {

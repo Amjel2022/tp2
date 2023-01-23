@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,800;1,500&display=swap');
+
+.containerMetales {
+    margin: 0 25px 20px 25px;
+    font-family: 'Nunito', sans-serif;  
+}
+
+.gridMetales {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 40px;
+    column-gap: 40px;
+    
+}
+
+.tituloMetales {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.imgM1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+
+.imgM2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding: 0px 0px 0px 10px;
+}
+
+.tituloMetalGrid {
+    padding: 2px 0px 15px 0px;
+    font-size: 20spx;
+    color: var(--lila_secundario);
+    font-weight: bolder;
+} 
+
+.parrafoM1, .parrafoM2 {
+    text-align: justify;
+}
+
+.metal1, .metal2, .metal3, .metal4, .metal5 {
+    padding: 20px;
+    border: var(--negro) solid 4px;
+    border-radius: 8px;
+    background-color: var(--blanco);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 400ms ease;
+} 
+
+.metal1:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.metal2:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.metal3:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.metal4:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.metal5:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+@media(max-width:768px) {
+    .gridMetales {
+    grid-template-columns: auto;
+    }
+}
