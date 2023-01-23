@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Metales.css";
+// import de imágenes
 import aluminioDatos from "../img-paginas/Metales/aluminio.png";
 import aluminioFoto from "../img-paginas/Metales/aluminio2.png";
 import hierroDatos from "../img-paginas/Metales/hierro.png";
@@ -8,10 +9,8 @@ import neodimioDatos from "../img-paginas/Metales/neodimio.png";
 import neodimioFoto from "../img-paginas/Metales/neodimio2.png";
 import oroDatos from "../img-paginas/Metales/oro.png"; 
 import oroFoto from "../img-paginas/Metales/oro2.png";
-
 import titanioDatos from "../img-paginas/Metales/titanio.png";
 import titanioFoto from "../img-paginas/Metales/titanio2.png";
-
 
 export default function Metales () {
     return (

@@ -40,7 +40,9 @@ const Footer = () => {
                             <li>Home</li>
                             <li>Introducción</li>
                             <li>Historia</li>
-                            <li>Clasificación</li>
+                            <li>Metales</li>
+                            <li>No Metales</li>
+                            <li>Metaloides</li>  
                             <li>Curiosidades</li>
                         </ul>
                     </div>

@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,800;1,500&display=swap');
 
-.containerMetales {
+.containerNometales {
     margin: 0 25px 20px 25px;
     font-family: 'Nunito', sans-serif;  
 }
 
-.gridMetales {
+.gridNometales {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 40px;
     column-gap: 40px;
-    
 }
 
-.tituloMetales {
+.tituloNometales {
     padding-top: 40px;
     padding-bottom: 20px;
     display: flex;
@@ -35,7 +34,7 @@
     padding: 0px 0px 0px 10px;
 }
 
-.tituloMetalGrid {
+.tituloNometalGrid {
     padding: 2px 0px 15px 0px;
     font-size: 20spx;
     color: var(--lila_secundario);
@@ -46,7 +45,7 @@
     text-align: justify;
 }
 
-.metal1, .metal2, .metal3, .metal4, .metal5 {
+.nometal1, .nometal2, .nometal3, .nometal4 {
     padding: 20px;
     border: var(--lila_variante) solid 4px;
     border-radius: 8px;
@@ -56,33 +55,29 @@
     transition: all 400ms ease;
 } 
 
-.metal1:hover {
+.nometal1:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
-.metal2:hover {
+.nometal2:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
-.metal3:hover {
+.nometal3:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
-.metal4:hover {
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
-
-.metal5:hover {
+.nometal4:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
 @media(max-width:768px) {
-    .gridMetales {
+    .gridNometales {
     grid-template-columns: auto;
     }
 }
+

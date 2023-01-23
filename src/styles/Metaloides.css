@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,800;1,500&display=swap');
 
-.containerMetales {
+.containerMetaloides {
     margin: 0 25px 20px 25px;
     font-family: 'Nunito', sans-serif;  
 }
 
-.gridMetales {
+.gridMetaloides {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 40px;
@@ -13,7 +13,7 @@
     
 }
 
-.tituloMetales {
+.tituloMetaloides {
     padding-top: 40px;
     padding-bottom: 20px;
     display: flex;
@@ -35,7 +35,7 @@
     padding: 0px 0px 0px 10px;
 }
 
-.tituloMetalGrid {
+.tituloMetaloideGrid {
     padding: 2px 0px 15px 0px;
     font-size: 20spx;
     color: var(--lila_secundario);
@@ -46,7 +46,7 @@
     text-align: justify;
 }
 
-.metal1, .metal2, .metal3, .metal4, .metal5 {
+.metaloide1, .metaloide2 {
     padding: 20px;
     border: var(--lila_variante) solid 4px;
     border-radius: 8px;
@@ -56,33 +56,19 @@
     transition: all 400ms ease;
 } 
 
-.metal1:hover {
+.metaloide1:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
-.metal2:hover {
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
-
-.metal3:hover {
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
-
-.metal4:hover {
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
-
-.metal5:hover {
+.metaloide2:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
 
 @media(max-width:768px) {
-    .gridMetales {
+    .gridMetaloides {
     grid-template-columns: auto;
     }
 }
+
