@@ -1,0 +1,84 @@
+.card-container {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px var(--negro);
+    transition: 0.3s;
+    animation: ease-in;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px var(--negro);
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px var(--negro);
+}
+
+.card3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px var(--negro);
+}
+
+.card4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px var(--negro);
+}
+
+.card5:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px var(--negro);
+}
+
+.card6:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px var(--negro);
+}
+
+.img-card {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-contenido {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+p, h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+.card-titulo {
+    margin-bottom: 0.5rem;
+    font-variant: small-caps;
+}
+
+.card-boton {
+    border: 2px solid var(--lila_secundario);
+    color: var(--negro);
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.card-boton:hover {
+    color: var(--blanco);
+    background-color: var(--lila_secundario);
+}

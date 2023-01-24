@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import React from "react";
 import "../styles/Carousel.css";
 
 function Carousel({Carousel}) {

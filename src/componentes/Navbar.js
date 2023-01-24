@@ -14,7 +14,7 @@ function Navbar() {
 
     return(
         <header>
-            <h1>tabla<b> periódica</b></h1>
+            <h1>tabla periódica</h1>
 
             <nav className="navbar" ref={navRef} >
                 <Link to="/" className="links" onClick={showNavbar}>

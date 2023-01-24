@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "../componentes/Carousel";
 import {fotosCarousel} from "../componentes/Data";
-
+import Card from "../componentes/Card";
 
 function Home () {
     return (
@@ -10,6 +10,8 @@ function Home () {
             
             {/* Carousel */}
             <Carousel Carousel={fotosCarousel} />
+
+            <Card />
 
         </div>
         
