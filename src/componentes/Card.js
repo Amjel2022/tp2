@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/Card.css";
+import { Link } from "react-router-dom";
 //import de imágenes
 import imagenTP from "../img-paginas/img-cards/tablaper1.png";
 import tablaAntigua from "../img-paginas/img-cards/tablaantigua2.png";
 import metales from "../img-paginas/img-cards/metales_portada.png";
 import noMetales from "../img-paginas/img-cards/nometales_portada.png";
 import metaloides from "../img-paginas/img-cards/metaloides_portada.png";
+
 
 
 export default function Card () {
@@ -29,11 +31,8 @@ export default function Card () {
                         </p>
                     </div>
 
-                    <div className="card-boton">
-                        <button src="" >
-                                Saber más
-                        </button>
-                    </div>
+                    <Link to="/introduccion" className="linkcard">Saber más</Link>  
+                    
                 </div>
                 
             </div>
@@ -55,11 +54,8 @@ export default function Card () {
                         </p>
                     </div>
 
-                    <div className="card-boton">
-                        <button >
-                                Saber más
-                        </button>
-                    </div>
+                    <Link to="/historia" className="linkcard">Saber más</Link>
+                
                 </div>
 
             </div>
@@ -81,11 +77,8 @@ export default function Card () {
                         </p>
                     </div>
 
-                    <div className="card-boton">
-                        <button >
-                                Saber más
-                        </button>
-                    </div>
+                    <Link to="/metales" className="linkcard">Saber más</Link>
+                
                 </div>
 
             </div>
@@ -107,11 +100,8 @@ export default function Card () {
                         </p>
                     </div>
 
-                    <div className="card-boton">
-                        <button >
-                                Saber más
-                        </button>
-                    </div>
+                    <Link to="/nometales" className="linkcard">Saber más</Link>
+                
                 </div>
 
             </div>
@@ -133,11 +123,8 @@ export default function Card () {
                         </p>
                     </div>
 
-                    <div className="card-boton">
-                        <button >
-                                Saber más
-                        </button>
-                    </div>
+                    <Link to="/metaloides" className="linkcard">Saber más</Link>
+                
                 </div>
 
             </div>
@@ -159,11 +146,8 @@ export default function Card () {
                         </p>
                     </div>
 
-                    <div className="card-boton">
-                        <button >
-                                Saber más
-                        </button>
-                    </div> 
+                    <Link to="/curiosidades" className="linkcard">Saber más</Link>
+                
                 </div>
 
             </div>

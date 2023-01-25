@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Footer.css";
 import 'remixicon/fonts/remixicon.css';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -37,13 +38,27 @@ const Footer = () => {
                     <div className="columna2">
                         <h4 className="tituloCol2">Categorías</h4>
                         <ul className="listaNavbar">
-                            <li>Home</li>
-                            <li>Introducción</li>
-                            <li>Historia</li>
-                            <li>Metales</li>
-                            <li>No Metales</li>
-                            <li>Metaloides</li>  
-                            <li>Curiosidades</li>
+                            <li>
+                                <Link to="/" className="linkfooter">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/introduccion" className="linkfooter">Introducción</Link>
+                            </li>
+                            <li>
+                                <Link to="/historia" className="linkfooter">Historia</Link>
+                            </li>
+                            <li>
+                                <Link to="/metales" className="linkfooter">Metales</Link>
+                            </li>
+                            <li>
+                                <Link to="/nometales" className="linkfooter">No Metales</Link>
+                            </li>
+                            <li>
+                                <Link to="/metaloides" className="linkfooter">Metaloides</Link>
+                            </li>  
+                            <li>
+                                <Link to="/curiosidades" className="linkfooter">Curiosidades</Link>
+                            </li>
                         </ul>
                     </div>
 

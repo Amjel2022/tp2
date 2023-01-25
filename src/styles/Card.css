@@ -20,6 +20,7 @@
     box-shadow: 0px 0px 15px -5px var(--negro);
     transition: 0.3s;
     animation: ease-in;
+    background-color: var(--blanco);
 }
 
 .card1:hover {
@@ -76,7 +77,6 @@
     flex-direction: column;
     margin: 1rem;
     margin-top: 0.5rem;
-    background-color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
 p {
@@ -94,7 +94,7 @@ p {
     color: var(--lila_secundario);
 }
 
-.card-boton button {
+.linkcard {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,10 +106,10 @@ p {
     text-align: center;
     text-decoration: none;
     font-size: 15px;
-    
+    text-decoration: none;
 }
 
-.card-boton button:hover {
+.linkcard:hover {
     color: var(--blanco);
     background-color: var(--lila_secundario);
 }
