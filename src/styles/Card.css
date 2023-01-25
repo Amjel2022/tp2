@@ -103,6 +103,7 @@ p {
     margin-top: 10px;
     border: 2px solid var(--lila_secundario);
     color: var(--negro);
+    font-weight: bolder;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
