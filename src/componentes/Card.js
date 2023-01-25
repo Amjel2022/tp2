@@ -1,7 +1,11 @@
 import React from "react";
 import "../styles/Card.css";
 //import de imágenes
-import imagenTP from "../img-paginas/tablaper1.png";
+import imagenTP from "../img-paginas/img-cards/tablaper1.png";
+import tablaAntigua from "../img-paginas/img-cards/tablaantigua2.png";
+import metales from "../img-paginas/img-cards/metales_portada.png";
+import noMetales from "../img-paginas/img-cards/nometales_portada.png";
+import metaloides from "../img-paginas/img-cards/metaloides_portada.png";
 
 
 export default function Card () {
@@ -21,13 +25,15 @@ export default function Card () {
                 
                     <div className="card-parrafo">
                         <p>
-                        lorem ipsum dolor sit am lorem, consectetur adipiscing ellorem ipsum dolor lorem, sed diam nonumy eirmod tempor.
+                        La Tabla Periódica es una parte fundamental en el estudio de la química. Conocer y saber usar una tabla, es un conocimiento básico que todo estudiante de química debería conocer.
                         </p>
                     </div>
 
-                    <button className="card-boton">
-                            Querés saber más
-                    </button>
+                    <div className="card-boton">
+                        <button src="" >
+                                Saber más
+                        </button>
+                    </div>
                 </div>
                 
             </div>
@@ -35,23 +41,25 @@ export default function Card () {
             <div className="card2">
                 
                 <div className="card-imagen">
-                    <img src={ imagenTP } alt="Imagen de la Tabla Periódica" className="img-card"/>
+                    <img src={ tablaAntigua } alt="Tabla Periódica Antigua" className="img-card"/>
                 </div>
 
                 <div className="card-contenido">
                     <div className="card-titulo">
-                        <h3>introducción</h3>
+                        <h3>historia</h3>
                     </div>
                 
                     <div className="card-parrafo">
                         <p>
-                            lorem ipsum dolor sit amet
+                        Todo lo que tenes que saber de la Tabla Periódica: ¿quién la creó?, ¿cómo se hizo?, ¿cuántas tablas han existido a lo largo de la historia? 
                         </p>
                     </div>
 
-                    <button className="card-boton">
-                            Querés saber más
-                    </button>
+                    <div className="card-boton">
+                        <button >
+                                Saber más
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -59,23 +67,25 @@ export default function Card () {
             <div className="card3">
                 
                 <div className="card-imagen">
-                    <img src={ imagenTP } alt="Imagen de la Tabla Periódica" className="img-card"/>
+                    <img src={ metales } alt="Imagen de Metales" className="img-card3"/>
                 </div>
 
                 <div className="card-contenido">
                     <div className="card-titulo">
-                        <h3>introducción</h3>
+                        <h3>metales</h3>
                     </div>
                 
                     <div className="card-parrafo">
                         <p>
-                            lorem ipsum dolor sit amet
+                            Todos usamos o tenemos contacto con algún tipo de metal, pero ¿cuáles son sus características químicas? ¿Son todos iguales? ¿Podemos comer metales?
                         </p>
                     </div>
 
-                    <button className="card-boton">
-                            Querés saber más
-                    </button>
+                    <div className="card-boton">
+                        <button >
+                                Saber más
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -83,23 +93,25 @@ export default function Card () {
             <div className="card4">
                 
                 <div className="card-imagen">
-                    <img src={ imagenTP } alt="Imagen de la Tabla Periódica" className="img-card"/>
+                    <img src={ noMetales } alt="Imagen de algunos no metales" className="img-card"/>
                 </div>
 
                 <div className="card-contenido">
                     <div className="card-titulo">
-                        <h3>introducción</h3>
+                        <h3>no metales</h3>
                     </div>
                 
                     <div className="card-parrafo">
                         <p>
-                            lorem ipsum dolor sit amet
+                            Pueden ser: sólidos, líquidos y gaseosos. ¿Dónde están los No metales? ¿Cuáles son los más importantes? ¿Tienen alguna utilidad?
                         </p>
                     </div>
 
-                    <button className="card-boton">
-                            Querés saber más
-                    </button>
+                    <div className="card-boton">
+                        <button >
+                                Saber más
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -107,23 +119,25 @@ export default function Card () {
             <div className="card5">
                 
                 <div className="card-imagen">
-                    <img src={ imagenTP } alt="Imagen de la Tabla Periódica" className="img-card"/>
+                    <img src={ metaloides } alt="Imagen de metaloides" className="img-card"/>
                 </div>
 
                 <div className="card-contenido">
                     <div className="card-titulo">
-                        <h3>introducción</h3>
+                        <h3>metaloides</h3>
                     </div>
                 
                     <div className="card-parrafo">
                         <p>
-                            lorem ipsum dolor sit amet
+                            Se dice que estos elementos representan el futuro, ya que son usados ampliamente en la fabricación de aparatos electrónicos, ¿querés saber cuáles son? 
                         </p>
                     </div>
 
-                    <button className="card-boton">
-                            Querés saber más
-                    </button>
+                    <div className="card-boton">
+                        <button >
+                                Saber más
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -136,18 +150,20 @@ export default function Card () {
 
                 <div className="card-contenido">
                     <div className="card-titulo">
-                        <h3>introducción</h3>
+                        <h3>curiosidades</h3>
                     </div>
                 
                     <div className="card-parrafo">
                         <p>
-                            lorem ipsum dolor sit amet
+                            ¿Qué tiene que ver la Scaloneta con la Tabla Periódica? Aquí una relación que muy pocos imaginaron... 
                         </p>
                     </div>
 
-                    <button className="card-boton">
-                            Querés saber más
-                    </button> 
+                    <div className="card-boton">
+                        <button >
+                                Saber más
+                        </button>
+                    </div> 
                 </div>
 
             </div>

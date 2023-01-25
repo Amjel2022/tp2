@@ -9,9 +9,14 @@
 }
 
 .card1, .card2, .card3, .card4, .card5, .card6 {
+    display: flex;
     width: 400px;
     height: 400px;
-    overflow: hidden;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     box-shadow: 0px 0px 15px -5px var(--negro);
     transition: 0.3s;
     animation: ease-in;
@@ -47,38 +52,71 @@
     box-shadow: 0px 0px 15px 0px var(--negro);
 }
 
+.card-imagen {
+    display: flex;
+    justify-content: center;
+
+}
 .img-card {
-    width: 100%;
-    overflow: hidden;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;    
+    object-fit: contain;
+}
+ 
+.img-card3 {
+    display: flex;
+    width: 75%;
 }
 
 .card-contenido {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin: 1rem;
     margin-top: 0.5rem;
+    background-color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
-p, h3 {
-    margin: 0px;
+p {
+    margin: 0px 0px 0px 5px;
     padding: 0px;
     text-align: justify;
+
 }
 
-.card-titulo {
+.card-titulo h3 {
+    display: flex;
+    justify-content: flex-start;
     margin-bottom: 0.5rem;
     font-variant: small-caps;
+    color: var(--lila_secundario);
 }
 
-.card-boton {
-    border: 2px solid var(--lila_secundario);
-    color: var(--negro);
+.card-boton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px 20px;
     border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid var(--lila_secundario);
+    color: var(--negro);
     text-align: center;
     text-decoration: none;
     font-size: 15px;
+    
 }
 
-.card-boton:hover {
+.card-boton button:hover {
     color: var(--blanco);
     background-color: var(--lila_secundario);
 }
+
+@media(max-width:768px) {
+    
+    .card-container {
+    grid-template-columns: auto;
+    }
+} 
