@@ -34,55 +34,55 @@ export default function Curiosidades () {
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad2 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad2 } alt="Cuti Romero: Zinc" className='imgC' />
                     
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad3 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad3 } alt="Otamendi: Wolframio" className='imgC' />
                     
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad4 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad4 } alt="Mac Allister: Neón" className='imgC' />
                     
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad5 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad5 } alt="Messi: Iridio" className='imgC' />
                     
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad6 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad6 } alt="Dibu Martinez: Osmio" className='imgC' />
                     
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad7 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad7 } alt="De Paul: Niquel" className='imgC' />
                     
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad8 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad8 } alt="Scaloni: Oro" className='imgC' />
 
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad9 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad9 } alt="Di Maria: Potasio" className='imgC' />
 
                 </div>
 
                 <div className="curiosidad">
 
-                    <img src={ curiosidad10 } alt="La selección argentina como elementos de la Tabla Periódica" className='imgC' />
+                    <img src={ curiosidad10 } alt="Julian Alvarez: Tantalo" className='imgC' />
 
                 </div>
 
