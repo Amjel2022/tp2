@@ -7,6 +7,7 @@ import tablaAntigua from "../img-paginas/img-cards/tablaantigua2.png";
 import metales from "../img-paginas/img-cards/metales_portada.png";
 import noMetales from "../img-paginas/img-cards/nometales_portada.png";
 import metaloides from "../img-paginas/img-cards/metaloides_portada.png";
+import curiosidades1 from "../img-paginas/Curiosidades/curiosidad1.png";
 
 
 
@@ -132,7 +133,7 @@ export default function Card () {
             <div className="card6">
                 
                 <div className="card-imagen">
-                    <img src={ imagenTP } alt="Imagen de la Tabla Periódica" className="img-card"/>
+                    <img src={ curiosidades1 } alt="Tabla Periódica y el Futbol" className="img-card6"/>
                 </div>
 
                 <div className="card-contenido">

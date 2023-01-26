@@ -14,6 +14,7 @@
     height: 400px;
     object-fit: contain;
     align-items: center;
+    padding-top: 10px;
     justify-content: center;
     flex-direction: column;
     background-color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
@@ -68,7 +69,12 @@
  
 .img-card3 {
     display: flex;
-    width: 75%;
+    width: 70%;
+}
+
+.img-card6 {
+        display: flex;
+        width: 45%;
 }
 
 .card-contenido {
@@ -83,7 +89,6 @@ p {
     margin: 0px 0px 0px 5px;
     padding: 0px;
     text-align: justify;
-
 }
 
 .card-titulo h3 {

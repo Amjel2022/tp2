@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,800;1,500&display=swap');
+
+.containerCuriosidades {
+    margin: 0 25px 20px 25px;
+    font-family: 'Nunito', sans-serif;  
+}
+
+.gridCuriosidades {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.tituloCuriosidades {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.curiosidad {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: var(--lila_variante) solid 4px;
+    border-radius: 8px;
+    background-color: var(--blanco);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.curiosidad:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.imgC {
+    width: 300px;
+    height: 350px;
+    padding: 5px;
+
+}
+
+.parrafoC {
+    text-align: justify;
+    padding: 0px 20px 30px 20px;
+}
+
+@media(max-width:768px) {
+    .gridCuriosidades {
+    grid-template-columns: auto;
+    }
+}
