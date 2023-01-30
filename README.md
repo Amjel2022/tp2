@@ -1,3 +1,17 @@
+PAUTAS OPCIONALES SELECCIONADAS:
+
+1. Animaciones con CSS.
+2. Accesibilidad: Textos alternativos en imágenes, labels en inputs, etc.
+3. Muy responsive, se realizó un menú sandwich para la parte responsive de la app. 
+4. Sitio construido en REACT, basado en la presentación del primer trabajo práctico opcional de HTML y CSS.
+5. Uso de HOOKS:
+
+* "useState" en la parte de "Carousel", el cual gira de forma automática con las flechas indicadas también aparecen los títulos pero no pude lograr corregir el error de porque no me aparecen las imágenes que se seleccionaron. 
+
+* "useReft" en la Navbar responsive del proyecto. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
