@@ -67,19 +67,19 @@ const Footer = () => {
                         <ul className="redes">
                                 {/* Facebook */}
                                 <div className="iconlinks">
-                                    <i class="ri-facebook-circle-fill"></i>
+                                    <i className="ri-facebook-circle-fill"></i>
                                 </div>
                                 {/* Instagram */}
                                 <div className="iconlinks">
-                                    <i class="ri-instagram-line"></i>
+                                    <i className="ri-instagram-line"></i>
                                 </div>
                                 {/* Twitter */}
                                 <div className="iconlinks">
-                                    <i class="ri-twitter-line"></i>
+                                    <i className="ri-twitter-line"></i>
                                 </div>
                                 {/* GitHub */}
                                 <div className="iconlinks">
-                                    <i class="ri-github-line"></i>
+                                    <i className="ri-github-line"></i>
                                 </div>
                         </ul>
                     </div>

@@ -1,5 +1,4 @@
 .containerHome {
-    display: flex;
-    justify-content: center;
-    
+    display: grid;
+    place-items: center;
 }

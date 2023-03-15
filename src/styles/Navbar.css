@@ -23,6 +23,7 @@ header {
     padding: 0 2 rem;
     background-color: var(--lila_variante);
     color: var(--negro);
+    border-radius: 0 0 8px 8px;
 }
 
 .navbar .links {

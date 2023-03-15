@@ -17,6 +17,7 @@
     padding-top: 10px;
     justify-content: center;
     flex-direction: column;
+    border-radius: 8px;
     background-color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     box-shadow: 0px 0px 15px -5px var(--negro);
     transition: 0.3s;

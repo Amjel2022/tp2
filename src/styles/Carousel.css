@@ -16,6 +16,7 @@
     display: flex;
     flex: 1;
     position: absolute;
+    justify-content: center;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -37,6 +38,7 @@
 .imagen_card {
     width: 100%;
     object-fit: cover;
+    display: flex;
 }
 
 .card_titulo {
