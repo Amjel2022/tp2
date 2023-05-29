@@ -32,7 +32,7 @@ function App() {
       
       {/* Footer de la App */}
       <Footer />
-    
+      
     </div> 
   );
 }
